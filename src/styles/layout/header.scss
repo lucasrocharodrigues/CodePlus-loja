@@ -1,0 +1,118 @@
+.header{
+    &__top-bar{
+        display: flex;
+        align-items: center;
+        height: 52px;
+        padding-left: 90px;
+        padding-right: 90px;
+        border-bottom: #cccccc 1px solid;
+        justify-content: space-between;
+    }
+    &__contact{
+        display: flex;
+        align-items: center;
+        &-item{
+            margin-right: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            &-number{
+                color: #05c431;
+            }
+        }
+    }
+    &__requests{
+        display: flex;
+        align-items: center;
+        width: 150px;
+        justify-content: space-evenly;
+        &-span{
+            font-size: 16px;
+            &-green{
+                color: #05c431;
+                font-weight: bold;
+            }
+        }
+    }
+    &__center{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        height: 130px;
+        justify-content: space-evenly;
+        & img{
+            width: 294px;
+            height: 56px;
+        }
+    }
+    &__search{
+        display: flex;
+        align-items: center;
+        justify-content: center;      
+        width: 45%;
+        height: 60px;
+        border: #cccccc 1px solid;
+        padding-left: 15px;
+        padding-right: 15px;  
+        &-input{
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        &-icon{
+            width: 30px;
+            min-width: 30px;
+            height: 30px;
+            min-height: 30px;
+        }
+        & svg{
+            width: 30px;
+            height: 30px;
+        }
+    }
+    &__login{
+        display: flex;
+        align-items: center;
+        &-icon{
+            width: 30px;
+            height: 30px;
+            & SVG{
+                & path,circle{
+                    fill: #05c431;
+                }
+            }
+        }
+        &-span{
+            font-size: 16px;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+    }
+    &__cart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
+        border: #cccccc 1px solid;
+        height: 60px;
+        width: 140px;
+        padding-left: 5px;
+        padding-right: 5px;
+        &-icon{
+            width: 30px;
+            min-width: 30px;
+            height: 30px;
+            min-height: 30px;
+            & svg{
+                width: 35px;
+                height: 35px;
+                & path,circle{
+                    fill: #05c431;
+                }
+            }
+        }
+        &-span{
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+}
